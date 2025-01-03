@@ -1,4 +1,6 @@
-# test2
+# vue3-H5-Template
+
+vue3 + vite 的H5模板
 
 This template should help get you started developing with Vue 3 in Vite.
 

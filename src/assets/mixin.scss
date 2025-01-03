@@ -1,0 +1,8 @@
+@mixin gap($size) {
+  margin-bottom: calc(0px - $size);
+  margin-right: calc(0px - $size);
+  & > * {
+    margin-right: $size;
+    margin-bottom: $size;
+  }
+}

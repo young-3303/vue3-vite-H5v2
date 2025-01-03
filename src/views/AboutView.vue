@@ -8,9 +8,6 @@
   </div>
 </template>
 <script setup>
-// import flexGapPolyfill from 'flex-gap-polyfill'
-
-// flexGapPolyfill.process('flex-box' /*, processOptions, pluginOptions */);
 </script>
 <style lang="scss">
 @media (min-width: 1024px) {
@@ -22,12 +19,13 @@
 }
 .flex-box {
   display: flex;
-  gap: 20px;
+  //gap: 20px;
+  @include gap(20px);
   .c1 {
    background: aqua;
   }
   .c2 {
-    background: brown;
+    background: rosybrown;
   }
   >div {
     width: 200px;
