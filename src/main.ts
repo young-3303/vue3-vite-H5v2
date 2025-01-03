@@ -1,4 +1,4 @@
-// import 'core-js/features/object/has-own.js'
+import 'core-js/features/object/has-own.js'
 import './assets/main.css'
 
 import { createApp } from 'vue'
@@ -17,12 +17,3 @@ function Test() {
     }, 1000)
   })
 }
-Test().then(res => {
-  console.log(res);
-  let obj = {
-    name: 'zs'
-  }
-  console.log(Object.hasOwn(obj, 'name'))
-}).finally(() => {
-  console.log('finally')
-})

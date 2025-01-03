@@ -14,7 +14,6 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
     legacy({
-      additionalLegacyPolyfills: ['core-js/stable/object'],
       targets: [
         'Chrome>=55',
         'ios>=12',
