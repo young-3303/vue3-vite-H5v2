@@ -10,7 +10,7 @@ export default [
 
   {
     name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', 'vite.config.ts'],
+    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**', 'vite.config.ts', '**d.ts'],
   },
 
   ...pluginVue.configs['flat/essential'],
